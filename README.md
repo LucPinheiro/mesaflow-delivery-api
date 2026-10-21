@@ -8,7 +8,17 @@ MesaFlow es una solución de e-commerce y delivery enfocada en restauración, es
 
 A continuación se detalla el flujo completo de la aplicación, desde la experiencia del usuario final en la web hasta el impacto contable e inventariado en el backend de Odoo ERP.
 
-### 1. Interfaz de Usuario e Interactividad (Frontend)
+### 1. Portal de Acceso y Omnicanalidad (Landing & Auth)
+La aplicación cuenta con una pantalla de bienvenida y pasarela de autenticación optimizada para la gestión de usuarios y canales de venta.
+
+* **Landing Page y Registro Integrado:** Interfaz de acceso limpia con soporte para inicio de sesión clásico o mediante proveedores (Google y Apple). Destaca visualmente el ecosistema omnicanal conectado (Venta Local, Glovo, Just Eat y Odoo 18).
+<p align="center">
+  <img src="docs/images/auth_landing.png" alt="Acceso y Registro MesaFlow" width="90%">
+</p>
+
+---
+
+### 2. Interfaz de Usuario e Interactividad (Frontend)
 La plataforma web ofrece una experiencia fluida y reactiva para el consumidor, sincronizando dinámicamente los datos críticos del negocio.
 
 * **Carta Principal Dinámica:** Catálogo de productos organizado por categorías, precios actualizados y banners de ofertas sincronizados en tiempo real desde el ERP.
@@ -23,7 +33,7 @@ La plataforma web ofrece una experiencia fluida y reactiva para el consumidor, s
 
 ---
 
-### 2. Pasarela de Pago y Flujo de Pedidos
+### 3. Pasarela de Pago y Flujo de Pedidos
 El proceso de checkout simula un entorno de producción real garantizando la usabilidad del sistema de pedidos.
 
 * **Detalles de Entrega y Pago:** Formulario optimizado con cálculo de tiempos estimados de reparto. Soporta pasarelas de pago modernas como tarjeta de crédito y Bizum (simulado en entorno de pruebas).
@@ -43,7 +53,7 @@ El proceso de checkout simula un entorno de producción real garantizando la usa
 
 ---
 
-### 3. Sincronización e Inyección en Odoo POS (Backend)
+### 4. Sincronización e Inyección en Odoo POS (Backend)
 Demostración de la arquitectura desacoplada: el pedido de la web se inyecta directamente como un ticket en el ERP de la empresa.
 
 * **Backend Odoo 18 POS:** Registro automático del ticket dentro de la sesión activa del Punto de Venta (`POS/00001`). Mapea el cliente (`Lu Pinheiro`), calcula los impuestos correspondientes e inyecta las líneas de servicio dinámicas como "Otros Gastos API" por recargo logístico de reparto.
