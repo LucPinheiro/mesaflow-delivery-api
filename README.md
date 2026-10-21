@@ -13,7 +13,7 @@ La aplicación cuenta con una pantalla de bienvenida y pasarela de autenticació
 
 * **Landing Page y Registro Integrado:** Interfaz de acceso limpia con soporte para inicio de sesión clásico o mediante proveedores (Google y Apple). Destaca visualmente el ecosistema omnicanal conectado (Venta Local, Glovo, Just Eat y Odoo 18).
 <p align="center">
-  <img src="docs/images/auth_landing.png" alt="Acceso y Registro MesaFlow" width="90%">
+  <img src="docs/images/Login.png" alt="Acceso y Registro MesaFlow" width="90%">
 </p>
 
 ---
@@ -141,7 +141,7 @@ npm run dev
 
 ¡Conectemos! Si tienes alguna pregunta sobre este proyecto o estás buscando una Desarrolladora Full-Stack especializada en Odoo e Inteligencia Artificial, no dudes en contactarme:
 
-* **🌍 Sitio Web / Portfolio:** <a href="https://lucpinheiro.github.io/" target="_blank" rel="noopener noreferrer">lucpinheiro.github.io</a>
-* **💻 GitHub Profile:** <a href="https://github.com/LucPinheiro" target="_blank" rel="noopener noreferrer">github.com/LucPinheiro</a>
+* **🌍 Sitio Web / Portfolio:** <a href="https://github.io" target="_blank" rel="noopener noreferrer">lucpinheiro.github.io</a>
+* **💻 GitHub Profile:** <a href="https://github.com" target="_blank" rel="noopener noreferrer">://github.com</a>
 * **📧 Correo Electrónico:** <a href="mailto:lupinheiro.dev@gmail.com" target="_blank" rel="noopener noreferrer">lupinheiro.dev@gmail.com</a>
 * **📱 Teléfono Móvil:** +34 618 38 85 17
