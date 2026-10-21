@@ -131,7 +131,7 @@ npm run dev
 
 ¡Conectemos! Si tienes alguna pregunta sobre este proyecto o estás buscando una Desarrolladora Full-Stack especializada en Odoo e Inteligencia Artificial, no dudes en contactarme:
 
-* **🌍 Sitio Web / Portfolio:** [lucpinheiro.github.io](https://github.io)
-* **💻 GitHub Profile:** [://github.com](https://://github.com)
+* **🌍 Sitio Web / Portfolio:** [lucpinheiro.github.io](https://lucpinheiro.github.io/)
+* **💻 GitHub Profile:** [://github.com](https://github.com/LucPinheiro)
 * **📧 Correo Electrónico:** [lupinheiro.dev@gmail.com](mailto:lupinheiro.dev@gmail.com)
 * **📱 Teléfono Móvil:** +34 618 38 85 17
