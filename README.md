@@ -84,7 +84,7 @@ Demostración de la arquitectura desacoplada: el pedido de la web se inyecta dir
 
 ```text
 mesaflow-delivery-api/
-├── Pos-Restaurante-Api/     # Backend/Middleware en NestJS (TypeScript)
+├── pos-restaurante-api/     # Backend/Middleware en NestJS (TypeScript)
 │   ├── src/                 # Código fuente (Módulos, Controladores y Servicios)
 │   │   ├── pos/             # Lógica dedicada a la integración con Odoo POS
 │   │   └── main.ts          # Punto de entrada de la aplicación
