@@ -95,7 +95,7 @@ Para levantar el middleware de NestJS localmente, crea un archivo `.env` en la r
 ```env
 PORT=3000
 ODOO_URL=http://localhost:8018
-ODOO_DB=odoo18_restaurante_ok
+ODOO_DB=tu_bd_odoo
 ODOO_USER=tu_usuario
 ODOO_PASSWORD=tu_contraseña
 ODOO_POS_CONFIG_ID=1
